@@ -113,3 +113,6 @@
 
 ; Windows + Shift + Tab = Windows + Shift + Right
 #+Tab::Send("#+{Right}")
+
+; Windows + Shift + C to close current window
+#+c::WinClose("A")
