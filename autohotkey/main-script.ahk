@@ -53,6 +53,15 @@
     }
 }
 
+; Windows + 4 to switch to Steam (or open if not running)
+#4::
+{
+    if WinExist("ahk_exe steam.exe") {
+        WinActivate("ahk_exe steam.exe")
+    } else {
+        Run("steam://open/main")
+    }
+}
 
 ; Windows + Shift + Q to move cursor to other monitor's center
 #+q::
