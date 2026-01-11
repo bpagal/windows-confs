@@ -1,0 +1,1 @@
+# windows confs like dotfiles
