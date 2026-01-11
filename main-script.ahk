@@ -54,7 +54,7 @@
 }
 
 
-; Windows + 4 to move cursor to other monitor's center
+; Windows + Shift + Q to move cursor to other monitor's center
 #+q::
 {
     if (MonitorGetCount() < 2)
