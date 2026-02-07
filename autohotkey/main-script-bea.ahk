@@ -24,13 +24,13 @@
     Send "{Home}{Down 2}{Enter}"
 }
 
-; Windows + 1 to switch to Firefox (or open if not running)
+; Windows + 1 to switch to Brave (or open if not running)
 #1::
 {
-    if WinExist("ahk_exe firefox.exe") {
-        WinActivate("ahk_exe firefox.exe")
+    if WinExist("ahk_exe brave.exe") {
+        WinActivate("ahk_exe brave.exe")
     } else {
-        Run("firefox.exe")
+        Run("brave.exe")
     }
 }
 
